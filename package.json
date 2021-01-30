@@ -1,10 +1,11 @@
 {
-  "name": "RaspberryNodeNosql",
+  "name": "Node nosql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Sicorschi/RaspberryNodeNosql/issues"
   },
-  "homepage": "https://github.com/Sicorschi/RaspberryNodeNosql#readme"
+  "homepage": "https://github.com/Sicorschi/RaspberryNodeNosql#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
